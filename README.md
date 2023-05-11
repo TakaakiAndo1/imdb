@@ -2,6 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### TMDB APIキーの取得
+アプリはTMDBのAPIを使用します。
+[TMDBのサイト](https://www.themoviedb.org/) で無料会員登録後、[APIの設定画面](https://www.themoviedb.org/settings/api)にある`API Key (v3 auth)`の値を環境変数に設定ください。
+
+```dotenv:.env
+API_KEY=YOUR-TMDB-API-KEY
+```
+
+### アプリの起動
+
 First, run the development server:
 
 ```bash
